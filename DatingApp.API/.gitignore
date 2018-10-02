@@ -1,0 +1,4 @@
+.vscodebin
+bin
+obj
+*.db
