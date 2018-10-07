@@ -12,15 +12,13 @@ export class HomeComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
-  ngOnInit() {
-    
-  }
+  ngOnInit() { }
 
   registerToggle() {
     this.registerMode = true;
   }
 
-  cancelRegisterMode(registerMode: bool) {
+  cancelRegisterMode(registerMode: boolean) {
     this.registerMode = registerMode;
   }
 }
